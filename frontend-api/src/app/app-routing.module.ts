@@ -3,11 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
 
-  { path: '', pathMatch: 'full', redirectTo: 'index' },
-  {
-      path: 'index',
-      loadChildren: () => import('./index/index.module').then(m => m.IndexModule)
-  }
 
 ];
 
